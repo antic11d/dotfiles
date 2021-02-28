@@ -1,0 +1,8 @@
+[user]
+	email = antic.dimi@gmail.com
+	name = antic11d
+	signingkey = A38703BC43366834
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
