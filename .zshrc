@@ -114,14 +114,8 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-# my aliases
-alias mubuntu='sshfs dimi@10.42.0.1:/home/dimi/ /Users/dimi/home-remote/'
-alias umubumntu='fusermount -u /Users/dimi/home-remote/'
-
-alias zshconfig="open ~/.zshrc"
-alias srcconfig="source ~/.zshrc; clear"
-alias myip="curl http://ipinfo.io/; echo"
-alias ..="cd .."
+# import aliases
+source ~/.aliases.zshrc
 
 # key bindings
 bindkey "[D" backward-word
