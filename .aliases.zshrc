@@ -1,6 +1,15 @@
-alias mubuntu="sshfs dimi@10.42.0.1:${HOME} ${HOME}/home-remote/"
-alias umubumntu="fusermount -u ${HOME}/home-remote/"
+##############################################
+# Tmux
+# Attach or create session
+t() {
+    tmux -CC new -A -s "$1";
+}
 
+
+tls() {
+    tmux ls;
+}
+##############################################
 # Conda
 alias cec="conda create"
 alias cee="conda env export"
@@ -9,7 +18,8 @@ alias cel="conda info --envs"
 alias cpl="conda list"
 alias ci="conda install"
 alias cr="conda remove"
-
+##############################################
+# Misc
 alias config="open ${HOME}/.zshrc"
 alias aliases="open ${HOME}/.aliases.zshrc"
 alias srcconfig="source ${HOME}/.zshrc; clear"

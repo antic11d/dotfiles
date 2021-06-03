@@ -142,10 +142,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-#export GPG_TTY='tty'
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
-
-
-
