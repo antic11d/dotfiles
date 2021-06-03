@@ -1,8 +1,10 @@
-[user]
-	email = antic.dimi@gmail.com
-	name = antic11d
-	signingkey = A38703BC43366834
 [commit]
 	gpgsign = true
+	template = /Users/dimi/.stCommitMsg
 [gpg]
 	program = gpg
+
+[include]
+	path = ~/.gitconfig-local
+#[includeIf "gitdir:~/ALG/probabilistic-models/"]
+#	path = ~/.gitconfig-mpi
